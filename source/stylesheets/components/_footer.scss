@@ -1,0 +1,34 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $light-gray;
+  padding: 10px;
+  color: #AFAFAF;
+}
+
+.footer-links {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.footer-links a {
+  color: #AFAFAF;
+  padding: 10px;
+  &:hover {
+    text-decoration: none;
+    color : black;
+  }
+}
+
+.footer-copyright {
+  padding:10px;
+  color: #AFAFAF;
+
+  i {
+    color: $red;
+  }
+
+}
